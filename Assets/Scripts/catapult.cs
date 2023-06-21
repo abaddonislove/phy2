@@ -36,7 +36,7 @@ public class catapult : MonoBehaviour
             //Debug.Log("down");
             lineRender.SetPosition(1, _aimPos);
 
-            currentBall.transform.position = _aimPos;
+            currentBall.transform.position = this.transform.position;
             //Debug.Log(currentBall.transform.position);
             //Debug.Log("test");
 
